@@ -1,31 +1,5 @@
-@font-face {
-  font-family: "Cantarell";
-  src: url("//db.onlinewebfonts.com/t/c6b19d934ffedbed2f71a95f59664366.eot");
-  src: url("//db.onlinewebfonts.com/t/c6b19d934ffedbed2f71a95f59664366.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/c6b19d934ffedbed2f71a95f59664366.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/c6b19d934ffedbed2f71a95f59664366.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/c6b19d934ffedbed2f71a95f59664366.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/c6b19d934ffedbed2f71a95f59664366.svg#Cantarell")
-      format("svg");
-}
-@font-face {
-  font-family: "Segoe UI";
-  src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot");
-  src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.svg#Segoe UI")
-      format("svg");
-}
+@import url(//db.onlinewebfonts.com/c/c6b19d934ffedbed2f71a95f59664366?family=Cantarell);
+@import url(//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI);
 
 * {
   padding: 0;

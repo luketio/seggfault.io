@@ -6,22 +6,26 @@ import NavBar from "../components/NavBar";
 import SplashScreen from "../components/SplashScreen";
 import Footer from "../components/Footer";
 
-const App: NextPage = () => {
-  return(
-    <div className={styles.container}>
-      <Head>
-        <title>Luke Tong</title>
-        <meta name="description" content="Luke's blog built with Next.js" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const url = "ltgr-github-io.vercel.app";
 
-      <NavBar />
-      <SplashScreen />
-      <Footer />
+const App: NextPage = () => (
+  <div className={styles.container}>
+    <Head>
+      <title>Luke Tong - Blog</title>
+      <meta name="description" content="Luke Tong's blog built with Next.js" />
+      <meta property="og:title" content="Luke Tong - Blog" />
+      <meta property="og:description" content="Luke Tong's blog built with Next.js" />
+      <meta property="og:url" content={url} />
+      <meta property="og:type" content="website" />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
 
-    </div>
-    
-  )
-}
+    <NavBar />
+    <SplashScreen />
+    <Footer />
+
+  </div>
+
+)
 
 export default App;

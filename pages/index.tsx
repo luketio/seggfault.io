@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.scss';
 
 import NavBar from "../components/NavBar";
 import SplashScreen from "../components/SplashScreen";
+import Footer from "../components/Footer";
 
 const App: NextPage = () => {
   return(
@@ -16,6 +17,7 @@ const App: NextPage = () => {
 
       <NavBar />
       <SplashScreen />
+      <Footer />
 
     </div>
     

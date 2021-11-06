@@ -9,11 +9,11 @@ export default function NavBar() {
             fixed="top"
             size="massive"
             style={{
-                background: "#292c33;",
+                background: "#292c33",
             }}
         >
             <Menu.Item link >
-                <Link href="/">Home</Link>
+                <Link href="/#home">Home</Link>
             </Menu.Item>
         </Menu>
     );

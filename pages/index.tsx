@@ -2,9 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 
-import NavBar from "../components/NavBar";
-import SplashScreen from "../components/SplashScreen";
-import Footer from "../components/Footer";
+import Home from "./Home";
 
 const url = "ltgr-github-io.vercel.app";
 
@@ -20,10 +18,7 @@ const App: NextPage = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <NavBar />
-    <SplashScreen />
-    <Footer />
-
+    <Home />
   </div>
 
 )

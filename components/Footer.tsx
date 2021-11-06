@@ -8,7 +8,7 @@ export default function Footer() {
                 <Grid stackable columns={3} style={{ paddingTop: "4vh", backgroundColor: "#292c33" }}>
                     <Grid.Column>
                         <div style={{textAlign: "center"}}>
-                            <Image src="/images/logo.png" alt="logo" height="128vh" width="128vh" />
+                            <Image src="/images/logo.svg" alt="logo" height="128vh" width="128vh" />
                             <p style={{color: "#ccc", padding: "10px"}}>© 2021 Luke Tong</p>
                         </div>
                     </Grid.Column>

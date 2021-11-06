@@ -20,7 +20,7 @@ export default function About() {
                 </Grid.Row>
                 <Grid.Row style={{ paddingBottom: "10vh" }}>
                     <Grid.Column width={4} >
-                        <Image src="/images/logo.png" alt="Logo" height="180vh" width="180vh" />
+                        <Image src="/images/logo.svg" alt="Logo" height="180vh" width="180vh" />
                     </Grid.Column>
 
                     <Grid.Column width={12} style={{fontSize: "16px"}}>

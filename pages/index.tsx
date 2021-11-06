@@ -7,7 +7,7 @@ import Home from "./Home";
 const url = "ltgr-github-io.vercel.app";
 
 const App: NextPage = () => (
-  <div className={styles.container}>
+  <div className="container">
     <Head>
       <title>Luke Tong - Blog</title>
       <meta name="description" content="Luke Tong's blog built with Next.js" />

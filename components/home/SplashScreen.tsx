@@ -1,6 +1,6 @@
 import { Header } from "semantic-ui-react";
 import Image from "next/image";
-import { relative } from "path/posix";
+import styles from "../../styles/Home.module.scss";
 
 export default function SplashScreen() {
     return(
@@ -16,7 +16,7 @@ export default function SplashScreen() {
             <Image src={"/images/front-page.jpeg"} alt="" layout="fill" objectFit="cover" quality={100}/>
             <Header
                 style = {{
-                    marginTop: "20vh",
+                    top: "20vh",
                     zIndex: 100,
                     position: "relative",
                     fontSize: "5rem",
@@ -28,6 +28,8 @@ export default function SplashScreen() {
                     Software Engineer and Environmentalist
                 </Header.Subheader>
             </Header>
+
+            <button className={styles.btn}>Resume</button>
         </div>
     );
 }

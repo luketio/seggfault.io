@@ -23,7 +23,7 @@
     "@types/node": "16.11.7",
     "@types/react": "17.0.36",
     "eslint": "7",
-    "eslint-config-next": "12.0.3",
+    "eslint-config-next": "12.0.4",
     "sass": "^1.43.4",
     "tshint": "^0.0.2",
     "typescript": "4.5.2"

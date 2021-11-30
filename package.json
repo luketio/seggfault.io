@@ -21,10 +21,10 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@types/node": "16.11.10",
-    "@types/react": "17.0.36",
+    "@types/react": "17.0.37",
     "eslint": "7",
     "eslint-config-next": "12.0.4",
-    "sass": "^1.43.4",
+    "sass": "^1.43.5",
     "tshint": "^0.0.2",
     "typescript": "4.5.2"
   }

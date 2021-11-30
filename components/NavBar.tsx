@@ -13,7 +13,10 @@ export default function NavBar() {
             }}
         >
             <Menu.Item link >
-                <Link href="/#home">Home</Link>
+                <Link href="/home">Home</Link>
+            </Menu.Item>
+            <Menu.Item link >
+                <Link href="/posts">Posts</Link>
             </Menu.Item>
         </Menu>
     );

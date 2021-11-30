@@ -1,33 +1,23 @@
-import { Grid, Header } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import Image from "next/image";
-import Link from "next/link";
+
+import Section from "../common/Section";
 
 export default function About() {
     return(
-        <div id="about" className="anchor" style={{ backgroundColor: "white" }}>
-            <Grid
-                centered
-                columns={2}
-                verticalAlign="middle"
-                style={{ padding: "0% 20% 0% 20%" }}
-            >
-                <Grid.Row style={{ padding: "3vh" }}>
-                    <Link href="/#about" passHref >
-                        <Header dividing style={{ fontSize: "25px" }}>
-                            About
-                        </Header>
-                    </Link>
-                </Grid.Row>
-                <Grid.Row style={{ paddingBottom: "10vh" }}>
-                    <Grid.Column width={4} >
-                        <Image src="/images/logo.svg" alt="Logo" height="180vh" width="180vh" />
-                    </Grid.Column>
+        <Section name="About">
+            <Grid.Column width={4} >
+                <Image src="/images/logo.svg" alt="Logo" height="180vh" width="180vh" />
+            </Grid.Column>
 
-                    <Grid.Column width={12} style={{fontSize: "16px"}}>
-                        <p>Hi! My name is Luke Tong, and I am a junior at PHS.</p>
-                    </Grid.Column>
-                </Grid.Row>
-            </Grid>
-        </div>
+            <Grid.Column width={12} style={{fontSize: "20px"}}>
+                <p>
+                    Hi! My name is Luke Tong, and I am a junior at PHS. 
+                    Some of my interests include programming(see my various <a>projects</a>),
+                    activism(see my <a>posts</a> on various topics as well as my <a>non-profit</a>),
+                    and reading(see my <a>reading list</a>)
+                </p>
+            </Grid.Column>
+        </Section>
    );
 }

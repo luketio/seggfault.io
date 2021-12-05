@@ -8,14 +8,14 @@ import RecentPosts from "../../components/home/RecentPosts";
 import Footer from "../../components/Footer";
 
 export default function Home() {
-    return(
-        <div id="home">
-            <NavBar />
-            <SplashScreen />
-            <About />
-            <Skills />
-            <RecentPosts />
-            <Footer />
-        </div>
-    );
+  return(
+    <div id="home">
+      <NavBar />
+      <SplashScreen />
+      <About />
+      <Skills />
+      <RecentPosts />
+      <Footer />
+    </div>
+  );
 }

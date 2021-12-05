@@ -4,9 +4,9 @@ import Image from "next/image";
 import Section from "../common/Section";
 
 export default function RecentPosts() {
-    return (
-        <Section name="Recent Posts">
+  return (
+    <Section name="Recent Posts">
 
-        </Section>
-    );
+    </Section>
+  );
 }

@@ -13,7 +13,7 @@ type Props = {
   preview?: boolean
 }
 
-const Post = ({ post, preview }: Props) => {
+export default function PostPage({ post, preview }: Props) {
   const router = useRouter();
 
   if (!router.isFallback && !post?.slug) {
@@ -38,8 +38,6 @@ const Post = ({ post, preview }: Props) => {
 
   );
 };
-
-export default Post;
 
 type Params = {
   params: {

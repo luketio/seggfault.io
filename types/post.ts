@@ -3,8 +3,9 @@ type PostType = {
   title: string;
   author: string;
   date: string;
-  img: string;
   content: string;
+  img?: string;
+  description?: string;
 }
 
 export default PostType;

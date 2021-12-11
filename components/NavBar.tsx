@@ -12,12 +12,16 @@ export default function NavBar() {
         background: "#292c33",
       }}
     >
-      <Menu.Item link >
-        <Link href="/home">Home</Link>
-      </Menu.Item>
-      <Menu.Item link >
-        <Link href="/posts">Posts</Link>
-      </Menu.Item>
+      <Link href="/home" passHref >
+        <Menu.Item link>
+          Home
+        </Menu.Item>
+      </Link>
+      <Link href="/posts" passHref >
+        <Menu.Item link>
+          Posts
+        </Menu.Item>
+      </Link>
     </Menu>
   );
 }

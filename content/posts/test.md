@@ -2,7 +2,7 @@
 author: Luke Tong
 date: '2021-11-30'
 title: 'Testing pls work'
-img: cover.png
+img: 'logo.svg'
 description: "testing description hopefully displays"
 ---
 

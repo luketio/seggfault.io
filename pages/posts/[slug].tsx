@@ -5,8 +5,8 @@ import { getPostBySlug, getAllPosts } from "../../lib/api";
 import mdToHTML from "../../lib/mdToHTML";
 import PostType from "../../types/post";
 
-import NavBar from "../../components/NavBar";
-import Footer from "../../components/Footer";
+import NavBar from "../../components/common/NavBar";
+import Footer from "../../components/common/Footer";
 
 type Props = {
   post: PostType

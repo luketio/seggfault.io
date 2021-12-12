@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Item, Icon, Button } from "semantic-ui-react";
+import { Item } from "semantic-ui-react";
 import { stringifyDates } from "../../lib/dates";
 
 type Props = {

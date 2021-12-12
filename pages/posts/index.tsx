@@ -1,5 +1,5 @@
-import NavBar from "../../components/NavBar";
-import Footer from "../../components/Footer";
+import NavBar from "../../components/common/NavBar";
+import Footer from "../../components/common/Footer";
 import PostPreview from "../../components/posts/PostPreview";
 
 import { getAllPosts } from "../../lib/api";

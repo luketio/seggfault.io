@@ -8,7 +8,7 @@ interface Props {
 
 export default function Section({name, children}: Props) {
   return(
-    <div id={name.replace(/\s/g, "").toLowerCase()} className="anchor" style={{ backgroundColor: "white" }}>
+    <div id={name.replace(/\s/g, "").toLowerCase()} className="anchor" >
       <Grid
         centered
         columns={2}

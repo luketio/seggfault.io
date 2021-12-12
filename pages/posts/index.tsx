@@ -1,6 +1,6 @@
 import NavBar from "../../components/NavBar";
 import Footer from "../../components/Footer";
-import Post from "../../components/posts/Post";
+import PostPreview from "../../components/posts/PostPreview";
 
 import { getAllPosts } from "../../lib/api";
 import PostType from "../../types/post";
@@ -12,13 +12,13 @@ type Props = {
 
 export default function Posts({ allPosts }: Props) {
   return(
-    <div id="posts">
+    <div id="posts" className="bg-color">
       <NavBar/>
 
-      <main style={{ marginLeft: "20vw", marginRight: "20vw", marginBottom: "6vh", marginTop: "14vh"}}>
+      <main style={{ marginLeft: "18vw", marginRight: "18vw", paddingBottom: "6vh", paddingTop: "14vh", paddingLeft: "2vw", paddingRight: "2vw", backgroundColor: "white"}}>
         <Item.Group divided>
           {allPosts.map((post) => (
-            <Post
+            <PostPreview
               key={post.slug}
               slug={post.slug}
               title={post.title}

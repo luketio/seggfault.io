@@ -25,7 +25,7 @@ export default function Footer() {
         </Grid>
       </div>
       <div style={{textAlign: "right", paddingBottom: "10px", backgroundColor: "#292c33"}}>
-        <h5 style={{color: "#ccc"}}>This website was built with <a href="https://nextjs.org/">Next.js</a><br />View the page source <a href="https://github.com/ltgr/ltgr.github.io">here</a></h5>
+        <h5 style={{color: "#ccc"}}>This website was built with <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Next.js</a><br />View the page source <a href="https://github.com/ltgr/ltgr.github.io" target="_blank" rel="noopener noreferrer">here</a></h5>
       </div>
 
     </div>

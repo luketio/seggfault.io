@@ -9,7 +9,7 @@ import Footer from "../../components/Footer";
 
 export default function Home() {
   return(
-    <div id="home">
+    <div id="home" className="bg-color">
       <NavBar />
       <SplashScreen />
       <About />

@@ -28,8 +28,6 @@ export default function SplashScreen() {
           Software Engineer and Environmentalist
         </Header.Subheader>
       </Header>
-
-      <button className={styles.btn}>Resume</button>
     </div>
   );
 }

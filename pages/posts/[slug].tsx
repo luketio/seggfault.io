@@ -21,18 +21,19 @@ export default function PostPage({ post, preview }: Props) {
   }
 
   return (
-    <div>
+    <div className="bg-color">
       <NavBar />
-      <h1 style={{marginTop: "12vh",  textAlign: "center"}} >{post.title}</h1>
-      <div
-        dangerouslySetInnerHTML={{ __html: post.content }}
-        style = {{
-          marginLeft: "24vw",
-          marginRight: "24vw",
-          paddingTop: "2vh",
-          paddingBottom: "6vh",
-        }}
-      />
+      <div className="post-body" style={{marginLeft: "18vw", marginRight: "18vw", marginTop: "2vh", marginBottom: "2vh", backgroundColor: "white", padding: "2vw"}}>
+        <h1 style={{paddingTop: "12vh",  textAlign: "center"}} >{post.title}</h1>
+        <div
+          dangerouslySetInnerHTML={{ __html: post.content }}
+          style = {{
+            paddingTop: "2vh",
+            paddingBottom: "6vh",
+          }}
+        />
+      </div>
+
       <Footer />
     </div>
 

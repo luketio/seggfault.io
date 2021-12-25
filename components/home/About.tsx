@@ -1,5 +1,6 @@
 import { Grid } from "semantic-ui-react";
 import Image from "next/image";
+import Link from "next/link";
 
 import Section from "../common/Section";
 
@@ -14,8 +15,8 @@ export default function About() {
         <p>
           Hi! My name is Luke Tong, and I am a junior at PHS.
           Some of my interests include programming(see my various <a>projects</a>),
-          activism(see my <a>posts</a> on various topics as well as my <a>non-profit</a>),
-          and reading(see my <a>reading list</a>)
+          activism(see my <Link as="a" href="posts">posts</Link> on various topics as well as my <a>non-profit</a>),
+          and reading(see my <a href="https://www.goodreads.com/review/list/143342440?shelf=%23ALL%23" target="_blank" rel="noopener noreferrer">reading list</a>)
         </p>
       </Grid.Column>
     </Section>

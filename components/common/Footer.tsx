@@ -18,9 +18,9 @@ export default function Footer() {
           </Grid.Column>
           <Grid.Column>
             <h2 style={{color: "#ccc"}}>Channels</h2>
-            <p style={{fontSize: "16px", paddingLeft: "6px", color: "white"}}>Github</p>
-            <p style={{fontSize: "16px", paddingLeft: "6px", color: "white"}}>StackOverflow</p>
-            <p style={{fontSize: "16px", paddingLeft: "6px", color: "white"}}>LinkedIn</p>
+            <a style={{fontSize: "16px", paddingLeft: "6px", color: "white"}} href="https://github.com/ltgr" target="_blank" rel="noopener noreferrer">Github</a>
+            <a style={{fontSize: "16px", paddingLeft: "6px", color: "white"}} href="https://stackoverflow.com/users/16010697/luke" target="_blank" rel="noopener noreferrer">StackOverflow</a>
+            <a style={{fontSize: "16px", paddingLeft: "6px", color: "white"}} href="https://www.linkedin.com/in/luke-tong-73525a224/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </Grid.Column>
         </Grid>
       </div>

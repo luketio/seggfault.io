@@ -15,7 +15,7 @@ export default function Posts({ allPosts }: Props) {
     <div id="posts" className="bg-color">
       <NavBar/>
 
-      <main style={{ marginLeft: "18vw", marginRight: "18vw", paddingBottom: "6vh", paddingTop: "14vh", paddingLeft: "2vw", paddingRight: "2vw", backgroundColor: "white"}}>
+      <main style={{ marginLeft: "6vw", marginRight: "6vw", paddingBottom: "6vh", paddingTop: "14vh", paddingLeft: "2vw", paddingRight: "2vw", backgroundColor: "white"}}>
         <Item.Group divided>
           {allPosts.map((post) => (
             <PostPreview

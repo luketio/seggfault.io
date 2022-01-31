@@ -17,7 +17,7 @@
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.1.0"
+    "semantic-ui-react": "^2.1.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
